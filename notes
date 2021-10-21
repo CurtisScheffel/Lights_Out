@@ -1,0 +1,19 @@
+Things to be added:
+    - Game win condition in board class
+        - Check for win at the end of while loop to end game
+    -Account for possible errors
+        - Player does not input an int or inputs an int out of range
+    - UI and graphics
+        - Find a library and learn it
+    - Levels
+        - Have an array or text file that has many different starting positions of varying difficulty.  The player can /
+          choose a difficulty and the puzzle name will be displayed.
+    - Game flow
+        - Welcome to the game, choose difficulty, instructions, etc. Basically want a menu here
+
+Questions:
+    - Will the board size always be 5x5?  Should I keep that as a variable parameter.  Easier puzzles could be 3x3 and /
+      harder ones can be up to 7x7 or 9x9
+
+Other games to consider:
+    - Auto battler
