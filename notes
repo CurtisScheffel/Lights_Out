@@ -10,6 +10,7 @@ Things to be added:
           choose a difficulty and the puzzle name will be displayed.
     - Game flow
         - Welcome to the game, choose difficulty, instructions, etc. Basically want a menu here
+    - Build a solver to find the optimal solution every time
 
 Questions:
     - Will the board size always be 5x5?  Should I keep that as a variable parameter.  Easier puzzles could be 3x3 and /
@@ -19,5 +20,7 @@ Other games to consider:
     - Auto battler
 
 Online Example:
-    - http://perfectweb.org/ddo/solver/vale_puzzle.html
-    - https://help.gnome.org/users/lightsoff/stable/strategy.html.en
+    - http://perfectweb.org/ddo/solver/vale_puzzle.html - Game
+    - https://help.gnome.org/users/lightsoff/stable/strategy.html.en - How to solve
+    - https://www.sfu.ca/~jtmulhol/math302/puzzles-lo.html - How to solve
+    - https://www.jgibson.id.au/articles/lights-out/ - How to solve (best)
