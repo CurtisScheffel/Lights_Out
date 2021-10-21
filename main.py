@@ -13,5 +13,6 @@ if __name__ == '__main__':
         print('Column index:')
         column = int(input())
         board.flip_tile(row, column)
+        game_won = board.is_game_won()
 
 

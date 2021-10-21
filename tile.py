@@ -1,16 +1,18 @@
 class Tile:
-    def __init__(self, color):
-        self.color = color
+    def __init__(self, value):
+        self.value = value
 
     def __str__(self):
-        return str(self.color)
+        return str(self.value)
 
     def __repr__(self):
-        return str(self.color)
+        return str(self.value)
 
     def flip_tile(self):
-        if self.color == 0:
-            self.color = 1
+        if self.value == 0:
+            self.value = 1
         else:
-            self.color = 0
+            self.value = 0
 
+    def get_value(self):
+        return self.value
