@@ -24,3 +24,16 @@ Online Example:
     - https://help.gnome.org/users/lightsoff/stable/strategy.html.en - How to solve
     - https://www.sfu.ca/~jtmulhol/math302/puzzles-lo.html - How to solve
     - https://www.jgibson.id.au/articles/lights-out/ - How to solve (best)
+
+Notes:
+    - Order in which the tiles are flipped does not matter
+    - No tile needs to be flipped twice, as it would result in no net change
+    - Every solvable 5x5 puzzle has 4 unique solutions.  X, X+N1, X+N2, X+N1+X2 where X is a solution and N1 and N2 /
+      are the following matrices:
+
+       N1:  [0, 1, 1, 1, 0]     N2: [1, 0, 1, 0, 1]
+            [1, 0, 1, 0, 1]         [1, 0, 1, 0, 1]
+            [1, 1, 0, 1, 1]         [0, 0, 0, 0, 0]
+            [1, 0, 1, 0 ,1]         [1, 0, 1, 0, 1]
+            [0, 1, 1, 1, 0]         [1, 0, 1, 0 ,1]
+

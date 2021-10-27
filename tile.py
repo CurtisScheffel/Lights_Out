@@ -1,3 +1,5 @@
+# Each tile represents a space on the board.  The tile can either be flipped or unflipped.  True or
+
 class Tile:
     def __init__(self, value):
         self.value = value
